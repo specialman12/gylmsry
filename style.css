@@ -1,0 +1,367 @@
+/* استيلات الموقع */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  background: linear-gradient(to bottom, #6f730f, #2e03bd);
+}
+
+header {
+    background-color: #00ffff;
+    color: #000000;
+    text-align: center;
+    padding: 30px;
+  olor:#0000ff;
+  font-family: 'Alexandria', sans-serif;
+  text-align: center;
+  
+  border: 1px solid #0000ff;
+   border-radius: 100px;
+  width: 60%;
+    height: 70%;
+    object-fit: center;
+     object-position: center;
+  box-shadow: 0 0 1px blue;
+  
+  card-shadow: 0 0 1px blue;
+  border: 10 px solid #00ffff;
+}
+
+header h1 {
+    margin: 0;
+  color: back; 
+  font-family: 'Alexandria', sans-serif;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* استيلات الموقع */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  font-family: 'Alexandria', sans-serif;
+  background: linear-gradient(to bottom, #6f730f, #2e03bd);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  background: linear-gradient(to bottom, #6f730f, #2e03bd);
+}
+
+.social-icons {
+    font-size: 24px;
+}
+
+.icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    background-size: cover;
+}
+
+.facebook {
+    background-image: url('facebook-icon.png');
+  background-size: cover;
+
+
+}
+
+.twitter {
+    background-image: url('Instagram-icon.png');
+}
+
+
+.Spotify {
+ background-image: url('Spotify-icon.png');
+}
+
+/* أضف أيقونات للشبكات الاجتماعية الأخرى حسب الحاجة */
+
+/* استيلات الموقع */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #383838;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto 20px;
+  border-radius: 20px;
+}
+
+.profile-picture img {
+  
+border: 1px solid #ccc;
+            border-radius: 20px;
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+     object-position: center;
+  box-shadow: 0 0 20px blue;
+  
+  card-shadow: 0 0 10px blue;
+  border: 1px solid #0000ff;
+            border-radius: 20px;
+            padding:5px;
+            margin: 1px;
+            display: inline-block;
+       width: 300px;
+            height: 200px;
+            
+
+  background: radial-gradient(#000000, #b1eabb);
+          
+            
+
+}
+
+h1 {
+    margin: 0;
+  text-shadow: 1px -5px 5px rgba(249, 0, 0, 0.7);
+
+  background: linear-gradient(to right, #5665e9, #a271f8);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* أيقونات الشبكات الاجتماعية */
+/* استيلات الموقع */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background-image.jpg'); /* اسم صورة الخلفية */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* ل
+تحسين قراءة النص على الخلفية */
+  background: linear-gradient(to left top, #69de9b, #cd3cf6);
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.7); /* خلفية للعنوان لتحسين القراءة */
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+/* باقي استيلات الموقع */
+h4{ 
+hanging-punctuation 
+  backface-visibility:visible;
+  padding: 20px;
+  text-align: center;
+  color: #eb4d3d;
+  font-size: 20px;
+  font-family: 'Lemonada', cursive;
+  
+}
+
+h2{
+  hanging-punctuation 
+  backface-visibility: visible;
+  padding: 20px;
+  text-align: center;
+  color: yalo;
+  font-size: 20px;
+  font-family: 'Alexandria', sans-serif;
+  sana-serif;
+  margin-top: 10px;
+}
+
+
+h2{
+  hanging-punctuation 
+  backface-visibility: visible;
+  padding: 20px;
+  text-align
+  font-family: 'Alexandria', sans-serif;
+}
+
+.page {
+  height: 1vh;
+}
+.page::before {
+  content: "";
+  position: fixed;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(to right bottom, #cc3195, #b58566);
+  left: 30%;
+  top: 30%;
+  transform: translateX(-50%) skew(0, -10deg);
+  border-radius: 50%;
+  z-index: -1;
+  animation: waving 5s ease-in-out infinite alternate;
+}
+
+
+
+@keyframes waving {
+  from {
+    transform: translateX(-50%) skew(0, -10deg);
+  }
+  to {
+    transform: translateX(-30%) skew(10deg, 0);
+  }
+}
+
+.stlo{
+  border: 1px solid #0000ff;
+   border-radius: 20px;
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+     object-position: center;
+  box-shadow: 0 0 20px blue;
+  
+  card-shadow: 0 0 10px blue;
+  border: 1px solid #00ffff;
+            border-radius: 20px;
+            padding:5px;
+            margin: 20px;
+            display: inline-block;
+       width: 300px;
+            height: 200px;
+            
+font-family: 'Lemonada', cursive;
+  
+          
+background-color:black; 
+}
+
+
+.mostafa.jpg {
+background-image: url('mostafa.jpg');
+  object-fit: cover;
+    object-position: center;
+  box-shadow: 0 0 20px blue;
+  padding:5px;
+            margin: 20px;
+            display: inline-block;
+  width: 100%;
+    height: 100%;
+  border-radius: 20px;
+  text-align: center;
+
+}
+
+h1{
+  color:#0000ff;
+  font-family: 'Alexandria', sans-serif;
+  text-align: center;
+  display: center;
+  background-size: cover; 
+  border: 1px solid #0000ff;
+   border-radius: 30px;
+  width: 100%;
+    height: 100%;
+    object-fit: center;
+     object-position: center;
+  box-shadow: 0 0 1px blue;
+  
+  card-shadow: 0 0 1px blue;
+  border: 1px solid #00ffff;
+
+}
+
+h3{
+  font-family: 'Alexandria', sans-serif;
+}
+
+p
+{
+  font-family: 'Alexandria', sans-serif;
+}
+  
+
+
+
+body
+{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none} .separator a,.post-body img{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;pointer-events:none} pre,kbd,blockquote,table{-webkit-user-select:text;-khtml-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text
+}
+
+
+.post-body img{max-width:100%} .post-body img.emoji{height:.4
+                                    }
+
+
+cardn{
+  border: 1px solid #0000ff;
+   border-radius: 2px;
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+     object-position: center;
+  box-shadow: 0 0 20px blue;
+  
+  card-shadow: 0 0 10px blue;
+  border: 1px solid #00ffff;
+}
+
+
+ins.adsbygoogle a {
+    display: none !important;
+}
+ins.adsbygoogle[data-ad-status="unfilled"] a {
+    display: block;
+}
+
+
+ins.adsbygoogle[data-ad-status="unfilled"] {
+    display: none !important;
+}
+
+google{
+  border: 1px solid #ccc;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+            width: 200px;
+            vertical-align: top;
+          background-color: black;
+          object-fit: cover;
+    object-position: center;
+  box-shadow: 0 0 20px red;
+          text-align: center;
+          box-shadow: 0 0 20px blue;
+          background: linear-gradient(to bottom, #6f730f, #2e03bd);
+}
